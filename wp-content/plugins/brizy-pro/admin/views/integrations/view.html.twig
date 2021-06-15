@@ -1,0 +1,93 @@
+<div class="wrap">
+    <h1>{{ title }}</h1>
+
+    {% if accounts %}
+
+        <form action="{{ pageLink }}" method="POST">
+            <table class="wp-list-table widefat fixed striped posts">
+                <thead>
+                <tr>
+                    <td id="cb" class="manage-column column-cb check-column">
+                        <label class="screen-reader-text" for="cb-select-all-1">Select All</label>
+                        <input id="cb-select-all-1" type="checkbox">
+                    </td>
+                    <th scope="col" id="title" class="manage-column column-title column-primary" width="25%"
+                        style="padding: 10px;">
+                        <span>App</span>
+                    </th>
+                    <th scope="col" id="title" class="manage-column column-title column-primary"
+                        style="padding: 10px;">
+                        <span>Details</span>
+                    </th>
+                </tr>
+                </thead>
+
+                <tbody id="the-list">
+                {% for account in accounts %}
+                    {% set  serviceId = account.getService() %}
+                    <tr class="iedit level-0">
+                        <th scope="row" class="check-column">
+                            <label class="screen-reader-text" for="cb-select-{{ account.getId() }}">
+                                Select Account</label>
+                            <input id="cb-select-240" type="checkbox" name="delete-service-account[{{ serviceId }}][]"
+                                   value="{{ account.getId() }}">
+                        </th>
+                        <td class="title column-title has-row-actions column-primary" data-colname="Identifier"
+                            width="300">
+                            <strong>{{ serviceId | title }}</strong>
+                            <span class="row-actions">
+                                    <span class="trash">
+                                        <a href="{{ pageLink }}&delete-service-account[{{ serviceId }}][]={{ account.getId() }}"
+                                           class="submitdelete"
+                                           onclick="return confirm('Are you sure you want to completely remove the selected account? All the features that use this integration will stop working!')"
+                                           aria-label="Move to the Trash">Delete</a>
+                                    </span>
+                                </span>
+                            <button type="button" class="toggle-row"><span
+                                        class="screen-reader-text">Show more details</span>
+                            </button>
+                        </td>
+                        <td class="title column-title has-row-actions column-primary" data-colname="Identifier">
+                            <ul>
+                                {% for key,value in account.convertToAuthData() %}
+                                    {% if key!='folders' %}
+                                        <li>
+                                            <strong style="display: inline">{{ key | replace({'_':' '}) | title }}</strong>:
+                                            <i style="padding-left: 30px;">{{ value | slice( 0, 8 ) }}XXXXXXXXXXXXXXX</i>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+
+                <tfoot>
+                <tr>
+                    <td class="manage-column column-cb check-column">
+                        <label class="screen-reader-text" for="cb-select-all-2"> Select All</label>
+                        <input id="cb-select-all-2" type="checkbox">
+                    </td>
+                    <td scope="col" class="manage-column column-title column-primary" style="padding: 10px;">
+                        <span>App</span>
+                    </td>
+                    <td scope="col" class="manage-column column-data column-primary" style="padding: 10px;">
+                        <span>Details</span>
+                    </td>
+                </tr>
+                </tfoot>
+
+            </table>
+
+            <div class="tablenav bottom">
+                <div class="alignleft actions bulkactions">
+                    <input type="submit" id="doaction2" class="button action" value="Delete" name="delete-account"
+                           onclick="return confirm('Are you sure you want to completely remove the selected accounts? All the features that use these integrations will stop working!')">
+                </div>
+            </div>
+        </form>
+    {% else %}
+        <p>{{ sprintf('Add new accounts directly in the %s builder',wl('brizy','Brizy')) }}.</p>
+    {% endif %}
+</div>

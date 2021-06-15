@@ -1,0 +1,330 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Brizy Pro\n"
+"POT-Creation-Date: 2021-03-04 16:06+0200\n"
+"PO-Revision-Date: 2021-03-04 16:06+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/integrations.php:33 admin/integrations.php:60
+msgid "Integrations"
+msgstr ""
+
+#: admin/license.php:150
+msgid "Sorry, you can’t use the Brizy Personal license in a multisite network."
+msgstr ""
+
+#: admin/license.php:181 admin/license.php:182 admin/license.php:237
+msgid "License"
+msgstr ""
+
+#: admin/license.php:219
+msgid "Deactivate"
+msgstr ""
+
+#: admin/license.php:219
+msgid "Activate"
+msgstr ""
+
+#: admin/settings.php:21
+msgid "Limited Access"
+msgstr ""
+
+#: admin/updater.php:330
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: admin/updater.php:330
+msgid "Error"
+msgstr ""
+
+#: admin/white-label.php:180 admin/white-label.php:194
+msgid "Settings saved."
+msgstr ""
+
+#: admin/white-label.php:217 admin/white-label.php:218
+msgid "White Label"
+msgstr ""
+
+#: content/placeholders/breadcrumbs.php:25
+msgid "Home"
+msgstr ""
+
+#: content/placeholders/breadcrumbs.php:26
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: content/placeholders/breadcrumbs.php:27
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: content/placeholders/breadcrumbs.php:28
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: content/placeholders/breadcrumbs.php:29
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: content/placeholders/breadcrumbs.php:30
+msgid "Error 404"
+msgstr ""
+
+#: content/placeholders/breadcrumbs.php:31
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: content/placeholders/breadcrumbs.php:32
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: content/placeholders/comments.php:66
+msgid "Name"
+msgstr ""
+
+#: content/placeholders/comments.php:74
+msgid "Email"
+msgstr ""
+
+#: content/placeholders/comments.php:82
+msgid "Website"
+msgstr ""
+
+#: content/placeholders/comments.php:94
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: content/placeholders/comments.php:95
+msgctxt "noun"
+msgid "Your review"
+msgstr ""
+
+#: content/placeholders/comments.php:95
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: content/placeholders/comments.php:113
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: content/placeholders/comments.php:121
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: content/placeholders/comments.php:130
+msgid "Your email address will not be published."
+msgstr ""
+
+#: content/placeholders/comments.php:135
+msgid "Add a review"
+msgstr ""
+
+#: content/placeholders/comments.php:135
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: content/placeholders/comments.php:140
+msgid "Your rating"
+msgstr ""
+
+#: content/placeholders/comments.php:142
+msgid "Rate&hellip;"
+msgstr ""
+
+#: content/placeholders/comments.php:143
+msgid "Perfect"
+msgstr ""
+
+#: content/placeholders/comments.php:144
+msgid "Good"
+msgstr ""
+
+#: content/placeholders/comments.php:145
+msgid "Average"
+msgstr ""
+
+#: content/placeholders/comments.php:146
+msgid "Not that bad"
+msgstr ""
+
+#: content/placeholders/comments.php:147
+msgid "Very poor"
+msgstr ""
+
+#: content/placeholders/excerpt.php:46
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+#. translators: Maximum number of words used in a post excerpt.
+#: content/placeholders/excerpt.php:71
+msgctxt "excerpt_length"
+msgid "55"
+msgstr ""
+
+#. translators: 1: reviews count 2: product name
+#: content/providers/woocommerce.php:137 templates/comments.php:33
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: content/providers/woocommerce.php:143 templates/comments.php:36
+msgid "Reviews"
+msgstr ""
+
+#: content/providers/woocommerce.php:172
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: content/providers/woocommerce.php:190
+msgid "Related products"
+msgstr ""
+
+#: content/providers/woocommerce.php:209
+msgid "SKU"
+msgstr ""
+
+#: content/providers/woocommerce.php:215
+msgctxt "Woocommerce Product Meta Category"
+msgid "Category"
+msgid_plural "Categories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: content/providers/woocommerce.php:220
+msgctxt "Woocommerce Product Meta Tag"
+msgid "Tag"
+msgid_plural "Tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: content/providers/woocommerce.php:327
+msgid "Subtotal"
+msgstr ""
+
+#: content/providers/woocommerce.php:336
+msgid "View cart"
+msgstr ""
+
+#: content/providers/woocommerce.php:340
+msgid "Checkout"
+msgstr ""
+
+#: content/providers/woocommerce.php:374
+msgid "Product"
+msgstr ""
+
+#: content/providers/woocommerce.php:387
+msgid "Price"
+msgstr ""
+
+#: content/providers/woocommerce.php:409
+msgid "Remove this item"
+msgstr ""
+
+#: content/providers/woocommerce.php:427
+msgid "No products in the cart."
+msgstr ""
+
+#: content/providers/wp.php:367
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: content/providers/wp.php:369
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: content/providers/wp.php:371
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: main.php:339
+msgid "Dynamic content"
+msgstr ""
+
+#: templates/comments-walker.php:186
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: %s: post title
+#: templates/comments.php:44
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: templates/comments.php:49
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/comments.php:76
+msgid "Previous"
+msgstr ""
+
+#: templates/comments.php:77
+msgid "Next"
+msgstr ""
+
+#: templates/comments.php:82
+msgid "There are no reviews yet."
+msgstr ""
+
+#: templates/comments.php:89
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: templates/comments.php:93
+msgid "Comments are closed."
+msgstr ""
+
+#: admin/views/license.html.twig:6
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/views/license.html.twig:23
+msgid "Your License Key"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Brizy Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://brizy.io/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extended functionality for the Brizy WordPress builder plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Brizy.io"
+msgstr ""

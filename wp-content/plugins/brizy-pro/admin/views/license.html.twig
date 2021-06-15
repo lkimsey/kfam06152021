@@ -1,0 +1,39 @@
+<div class="license-form">
+
+    {% if message %}
+        <div class="notice notice-error is-dismissible">
+            <p>{{ message }}</p>
+            <button type="button" class="notice-dismiss"><span class="screen-reader-text">{{ __('Dismiss this notice', 'brizy-pro') }}.</span>
+            </button>
+        </div>
+    {% endif %}
+
+    <form action="{{ action }}" method="post">
+        {{ nonce | raw }}
+
+        <input name="market" type="hidden" value="{{ data['market'] }}"/>
+        <input name="author" type="hidden" value="{{ data['author'] }}"/>
+        <input name="theme_id" type="hidden" value="{{ data['theme_id'] }}"/>
+        <input name="redirect" type="hidden" value="{{ data['redirect'] }}"/>
+        <input name="request[domain]" type="hidden" value="{{ data['request']['domain'] }}"/>
+
+        <table class="form-table">
+            <tr>
+                <th>
+                    <label for="licensekey">{{ __('Your License Key', 'brizy-pro') }}:</label>
+                </th>
+                <td>
+                    {% if license %}
+                        <input type="text" value="{{ license }}" class="regular-text" id="licensekey" readonly/>
+                        <input type="hidden" value="{{ licenseFull }}" class="regular-text" name="key"/>
+                    {% else %}
+                        <input name="key" type="text" value="{{ license }}" class="regular-text" id="licensekey"/>
+                    {% endif %}
+                    <input type="hidden" value="{{ license_form_action }}" name="license_form_action"/>
+                    <input type="submit" name="brizy-license-submit" id="submit" class="button button-primary" value="{{ submit_label }}" style="vertical-align:baseline;">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</div>

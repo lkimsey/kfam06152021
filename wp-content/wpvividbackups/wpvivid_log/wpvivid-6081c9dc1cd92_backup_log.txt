@@ -1,0 +1,120 @@
+Log created: 2021-04-22 19:09:16
+Type: backup
+[2021-04-22 19:09:16][notice]Start backing up.
+[2021-04-22 19:09:16][notice]server info fcgi:Off max execution time: 900 wp version:5.7.1 php version:7.4.16 db version:5.5.5 php ini:safe_mode: memory_limit:256M memory_get_usage:11.55 MB memory_get_peak_usage:11.84 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2021-04-22 19:09:16][notice]Prepare to backup backup_db files.
+[2021-04-22 19:09:16][notice]Start exporting database.
+[2021-04-22 19:09:16][notice]max_allowed_packet less than 32M :16.00 MB
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_term_relationships
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfissues
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfsnipcache
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_options
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfpendingissues
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfls_2fa_secrets
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfstatus
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wflocs
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfhoover
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfreversecache
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_commentmeta
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wpvivid_scan_result
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfls_settings
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_users
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfknownfilelist
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfhits
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_comments
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfnotifications
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfconfig
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wffilechanges
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_termmeta
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wfcrawlers
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_links
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_postmeta
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wffilemods
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_wflogins
+[2021-04-22 19:09:16][notice]Preparing to dump table wp_term_taxonomy
+[2021-04-22 19:09:17][notice]Preparing to dump table wp_terms
+[2021-04-22 19:09:17][notice]Preparing to dump table wp_wflivetraffichuman
+[2021-04-22 19:09:17][notice]Preparing to dump table wp_posts
+[2021-04-22 19:09:17][notice]Preparing to dump table wp_wpvivid_unused_uploads_files
+[2021-04-22 19:09:17][notice]Preparing to dump table wp_brizy_logs
+[2021-04-22 19:09:17][notice]Preparing to dump table wp_wfblockediplog
+[2021-04-22 19:09:17][notice]Preparing to dump table wp_usermeta
+[2021-04-22 19:09:17][notice]Preparing to dump table wp_wftrafficrates
+[2021-04-22 19:09:17][notice]Preparing to dump table wp_wfblocks7
+[2021-04-22 19:09:17][notice]Exporting database finished.
+[2021-04-22 19:09:17][notice]Start compressing backup_db
+[2021-04-22 19:09:17][notice]Prepare to zip files. file: kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_db.zip
+[2021-04-22 19:09:17][notice]Adding zip files completed.kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_db.zip, filesize: 10.80 MB
+[2021-04-22 19:09:17][notice]Compressing backup_db completed
+[2021-04-22 19:09:17][notice]Backing up backup_db completed.
+[2021-04-22 19:09:17][notice]Prepare to backup backup_themes files.
+[2021-04-22 19:09:17][notice]File number: 1003
+[2021-04-22 19:09:17][notice]Start compressing backup_themes
+[2021-04-22 19:09:17][notice]Prepare to zip files. file: kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_themes.zip
+[2021-04-22 19:09:17][notice]Adding zip files completed.kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_themes.zip, filesize: 28.22 MB
+[2021-04-22 19:09:17][notice]Compressing backup_themes completed
+[2021-04-22 19:09:17][notice]Backing up backup_themes completed.
+[2021-04-22 19:09:17][notice]Prepare to backup backup_plugin files.
+[2021-04-22 19:09:17][notice]File number: 10695
+[2021-04-22 19:09:17][notice]Start compressing backup_plugin
+[2021-04-22 19:09:18][notice]Prepare to zip files. file: kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_plugin.zip
+[2021-04-22 19:09:21][notice]Adding zip files completed.kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_plugin.zip, filesize: 118.60 MB
+[2021-04-22 19:09:21][notice]Compressing backup_plugin completed
+[2021-04-22 19:09:21][notice]Backing up backup_plugin completed.
+[2021-04-22 19:09:21][notice]Prepare to backup backup_uploads files.
+[2021-04-22 19:09:21][notice]File number: 110
+[2021-04-22 19:09:21][notice]Start compressing backup_uploads
+[2021-04-22 19:09:21][notice]Prepare to zip files. file: kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_uploads.zip
+[2021-04-22 19:09:21][notice]Adding zip files completed.kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_uploads.zip, filesize: 8.10 MB
+[2021-04-22 19:09:21][notice]Compressing backup_uploads completed
+[2021-04-22 19:09:21][notice]Backing up backup_uploads completed.
+[2021-04-22 19:09:21][notice]Prepare to backup backup_content files.
+[2021-04-22 19:09:21][notice]File number: 13
+[2021-04-22 19:09:21][notice]Start compressing backup_content
+[2021-04-22 19:09:21][notice]Prepare to zip files. file: kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_content.zip
+[2021-04-22 19:09:21][notice]Adding zip files completed.kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_content.zip, filesize: 5.31 MB
+[2021-04-22 19:09:21][notice]Compressing backup_content completed
+[2021-04-22 19:09:21][notice]Backing up backup_content completed.
+[2021-04-22 19:09:22][notice]Prepare to backup backup_core files.
+[2021-04-22 19:09:22][notice]File number: 1821
+[2021-04-22 19:09:22][notice]Start compressing backup_core
+[2021-04-22 19:09:22][notice]Prepare to zip files. file: kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_core.zip
+[2021-04-22 19:09:22][notice]Adding zip files completed.kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_core.zip, filesize: 43.88 MB
+[2021-04-22 19:09:22][notice]Compressing backup_core completed
+[2021-04-22 19:09:22][notice]Backing up backup_core completed.
+[2021-04-22 19:09:23][notice]Prepare to backup backup_merge files.
+[2021-04-22 19:09:23][notice]File number: 6
+[2021-04-22 19:09:23][notice]Start compressing backup_merge
+[2021-04-22 19:09:23][notice]Prepare to zip files. file: kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part001.zip
+[2021-04-22 19:09:32][notice]Adding zip files completed.kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part001.zip, filesize: 60.06 MB
+[2021-04-22 19:09:32][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_plugin.zip
+[2021-04-22 19:09:32][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_core.zip
+[2021-04-22 19:09:32][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_themes.zip
+[2021-04-22 19:09:32][notice]Prepare to zip files. file: kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part002.zip
+[2021-04-22 19:09:32][notice]Adding zip files completed.kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part002.zip, filesize: 24.22 MB
+[2021-04-22 19:09:32][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_db.zip
+[2021-04-22 19:09:32][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_uploads.zip
+[2021-04-22 19:09:32][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_content.zip
+[2021-04-22 19:09:32][notice]Compressing backup_merge completed
+[2021-04-22 19:09:32][notice]Backing up backup_merge completed.
+[2021-04-22 19:09:32][notice]Backup completed.
+[2021-04-22 19:09:32][notice]Backup succeeded.
+[2021-04-22 19:09:32][notice]Start upload.
+[2021-04-22 19:09:32][notice]Check upload folder wpvivid_backup
+[2021-04-22 19:09:32][notice]Start uploading kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part001.zip
+[2021-04-22 19:09:32][notice]Check if the server already has the same name file.
+[2021-04-22 19:09:33][notice]Initiate a resumable upload session.
+[2021-04-22 19:09:36][notice]Uploading kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part001.zip Total size: 60.06 MB Uploaded: 9.00 MB speed:2359.3kb/s
+[2021-04-22 19:09:40][notice]Uploading kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part001.zip Total size: 60.06 MB Uploaded: 22.00 MB speed:3407.87kb/s
+[2021-04-22 19:09:44][notice]Uploading kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part001.zip Total size: 60.06 MB Uploaded: 36.00 MB speed:3670.02kb/s
+[2021-04-22 19:09:48][notice]Uploading kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part001.zip Total size: 60.06 MB Uploaded: 49.00 MB speed:3407.87kb/s
+[2021-04-22 19:09:52][notice]Uploading kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part001.zip Total size: 60.06 MB Uploaded: 60.06 MB speed:2898.3kb/s
+[2021-04-22 19:09:52][notice]Finished uploading kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part001.zip
+[2021-04-22 19:09:52][notice]Start uploading kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part002.zip
+[2021-04-22 19:09:52][notice]Check if the server already has the same name file.
+[2021-04-22 19:09:52][notice]Initiate a resumable upload session.
+[2021-04-22 19:09:56][notice]Uploading kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part002.zip Total size: 24.22 MB Uploaded: 12.00 MB speed:3145.73kb/s
+[2021-04-22 19:10:00][notice]Uploading kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part002.zip Total size: 24.22 MB Uploaded: 24.22 MB speed:3202.4kb/s
+[2021-04-22 19:10:00][notice]Finished uploading kimseyfamily.com_wpvivid-6081c9dc1cd92_2021-04-22-19-09_backup_all.part002.zip
+[2021-04-22 19:10:00][notice]Cleaned up local files after uploading to remote storages.
+[2021-04-22 19:10:00][notice]Upload succeeded.

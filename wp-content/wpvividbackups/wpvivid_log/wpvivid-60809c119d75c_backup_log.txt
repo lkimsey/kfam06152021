@@ -1,0 +1,110 @@
+Log created: 2021-04-21 21:41:37
+Type: backup
+[2021-04-21 21:41:37][notice]Start backing up.
+[2021-04-21 21:41:37][notice]server info fcgi:Off max execution time: 900 wp version:5.7.1 php version:7.4.16 db version:5.5.5 php ini:safe_mode: memory_limit:256M memory_get_usage:8.29 MB memory_get_peak_usage:8.43 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2021-04-21 21:41:37][notice]Prepare to backup backup_db files.
+[2021-04-21 21:41:37][notice]Start exporting database.
+[2021-04-21 21:41:37][notice]max_allowed_packet less than 32M :16.00 MB
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_term_relationships
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wfissues
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wfsnipcache
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_options
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wfpendingissues
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wfls_2fa_secrets
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wfstatus
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wflocs
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wfhoover
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wfreversecache
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_commentmeta
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wpvivid_scan_result
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wfls_settings
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_users
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wfknownfilelist
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wfhits
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_comments
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wfnotifications
+[2021-04-21 21:41:37][notice]Preparing to dump table wp_wfconfig
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_wffilechanges
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_termmeta
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_wfcrawlers
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_links
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_postmeta
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_wffilemods
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_wflogins
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_term_taxonomy
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_terms
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_wflivetraffichuman
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_posts
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_wpvivid_unused_uploads_files
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_wfblockediplog
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_usermeta
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_wftrafficrates
+[2021-04-21 21:41:38][notice]Preparing to dump table wp_wfblocks7
+[2021-04-21 21:41:38][notice]Exporting database finished.
+[2021-04-21 21:41:38][notice]Start compressing backup_db
+[2021-04-21 21:41:38][notice]Prepare to zip files. file: 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_db.zip
+[2021-04-21 21:41:38][notice]Adding zip files completed.34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_db.zip, filesize: 982.40 KB
+[2021-04-21 21:41:38][notice]Compressing backup_db completed
+[2021-04-21 21:41:38][notice]Backing up backup_db completed.
+[2021-04-21 21:41:38][notice]Prepare to backup backup_themes files.
+[2021-04-21 21:41:38][notice]File number: 395
+[2021-04-21 21:41:38][notice]Start compressing backup_themes
+[2021-04-21 21:41:38][notice]Prepare to zip files. file: 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_themes.zip
+[2021-04-21 21:41:39][notice]Adding zip files completed.34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_themes.zip, filesize: 7.30 MB
+[2021-04-21 21:41:39][notice]Compressing backup_themes completed
+[2021-04-21 21:41:39][notice]Backing up backup_themes completed.
+[2021-04-21 21:41:39][notice]Prepare to backup backup_plugin files.
+[2021-04-21 21:41:39][notice]File number: 5833
+[2021-04-21 21:41:39][notice]Start compressing backup_plugin
+[2021-04-21 21:41:39][notice]Prepare to zip files. file: 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_plugin.zip
+[2021-04-21 21:41:41][notice]Adding zip files completed.34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_plugin.zip, filesize: 75.74 MB
+[2021-04-21 21:41:41][notice]Compressing backup_plugin completed
+[2021-04-21 21:41:41][notice]Backing up backup_plugin completed.
+[2021-04-21 21:41:41][notice]Prepare to backup backup_uploads files.
+[2021-04-21 21:41:41][notice]File number: 1
+[2021-04-21 21:41:41][notice]Start compressing backup_uploads
+[2021-04-21 21:41:41][notice]Prepare to zip files. file: 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_uploads.zip
+[2021-04-21 21:41:41][notice]Adding zip files completed.34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_uploads.zip, filesize: 394.00 B
+[2021-04-21 21:41:41][notice]Compressing backup_uploads completed
+[2021-04-21 21:41:41][notice]Backing up backup_uploads completed.
+[2021-04-21 21:41:41][notice]Prepare to backup backup_content files.
+[2021-04-21 21:41:41][notice]File number: 13
+[2021-04-21 21:41:41][notice]Start compressing backup_content
+[2021-04-21 21:41:41][notice]Prepare to zip files. file: 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_content.zip
+[2021-04-21 21:41:41][notice]Adding zip files completed.34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_content.zip, filesize: 5.31 MB
+[2021-04-21 21:41:41][notice]Compressing backup_content completed
+[2021-04-21 21:41:41][notice]Backing up backup_content completed.
+[2021-04-21 21:41:41][notice]Prepare to backup backup_core files.
+[2021-04-21 21:41:41][notice]File number: 1819
+[2021-04-21 21:41:41][notice]Start compressing backup_core
+[2021-04-21 21:41:41][notice]Prepare to zip files. file: 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_core.zip
+[2021-04-21 21:41:43][notice]Adding zip files completed.34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_core.zip, filesize: 43.87 MB
+[2021-04-21 21:41:43][notice]Compressing backup_core completed
+[2021-04-21 21:41:43][notice]Backing up backup_core completed.
+[2021-04-21 21:41:44][notice]Prepare to backup backup_merge files.
+[2021-04-21 21:41:44][notice]File number: 6
+[2021-04-21 21:41:44][notice]Start compressing backup_merge
+[2021-04-21 21:41:44][notice]Prepare to zip files. file: 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_all.zip
+[2021-04-21 21:41:50][notice]Adding zip files completed.34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_all.zip, filesize: 51.67 MB
+[2021-04-21 21:41:50][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_plugin.zip
+[2021-04-21 21:41:50][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_core.zip
+[2021-04-21 21:41:50][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_themes.zip
+[2021-04-21 21:41:50][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_content.zip
+[2021-04-21 21:41:50][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_db.zip
+[2021-04-21 21:41:50][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_uploads.zip
+[2021-04-21 21:41:50][notice]Compressing backup_merge completed
+[2021-04-21 21:41:50][notice]Backing up backup_merge completed.
+[2021-04-21 21:41:50][notice]Backup completed.
+[2021-04-21 21:41:50][notice]Backup succeeded.
+[2021-04-21 21:41:50][notice]Start upload.
+[2021-04-21 21:41:50][notice]Check upload folder wpvivid_backup
+[2021-04-21 21:41:51][notice]Start uploading 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_all.zip
+[2021-04-21 21:41:51][notice]Check if the server already has the same name file.
+[2021-04-21 21:41:52][notice]Initiate a resumable upload session.
+[2021-04-21 21:41:55][notice]Uploading 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_all.zip Total size: 51.67 MB Uploaded: 9.00 MB speed:2359.3kb/s
+[2021-04-21 21:41:59][notice]Uploading 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_all.zip Total size: 51.67 MB Uploaded: 23.00 MB speed:3670.02kb/s
+[2021-04-21 21:42:03][notice]Uploading 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_all.zip Total size: 51.67 MB Uploaded: 37.00 MB speed:3670.02kb/s
+[2021-04-21 21:42:07][notice]Uploading 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_all.zip Total size: 51.67 MB Uploaded: 50.00 MB speed:3407.87kb/s
+[2021-04-21 21:42:08][notice]Finished uploading 34.94.113.148_wpvivid-60809c119d75c_2021-04-21-21-41_backup_all.zip
+[2021-04-21 21:42:08][notice]Cleaned up local files after uploading to remote storages.
+[2021-04-21 21:42:08][notice]Upload succeeded.

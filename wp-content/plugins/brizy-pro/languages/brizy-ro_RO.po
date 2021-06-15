@@ -1,0 +1,161 @@
+# Translators:
+# FX Bénard <fxb@wp-translations.org>, 2019
+# Vlăduț Ilie <vladilie94@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Brizy Pro\n"
+"POT-Creation-Date: 2019-08-15 10:33+0200\n"
+"PO-Revision-Date: 2019-08-15 08:41+0000\n"
+"Last-Translator: Vlăduț Ilie <vladilie94@gmail.com>, 2019\n"
+"Language-Team: Romanian (Romania) (https://www.transifex.com/wp-translations/teams/64435/ro_RO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-WPHeader: brizy-pro.php\n"
+
+#: admin/integrations.php:40 admin/integrations.php:64
+msgid "Integrations"
+msgstr "Integrări"
+
+#: admin/license.php:93 admin/license.php:94
+msgid "License"
+msgstr "Licență"
+
+#: admin/license.php:131
+msgid "Deactivate"
+msgstr "Dezactivează"
+
+#: admin/updater.php:327
+msgid "You do not have permission to install plugin updates"
+msgstr "Nu ai permisiunea să instalezi actualizări de module"
+
+#: admin/updater.php:327
+msgid "Error"
+msgstr "Eroare"
+
+#: admin/white-label.php:153 admin/white-label.php:168
+msgid "Settings saved."
+msgstr "Setări salvate."
+
+#: admin/white-label.php:208 admin/white-label.php:209
+msgid "White Label"
+msgstr "Etichetă albă"
+
+#: content/providers/woocommerce.php:27
+msgid "Description"
+msgstr "Descriere"
+
+#: content/providers/woocommerce.php:42
+msgid "Additional information"
+msgstr "Informații suplimentare"
+
+#: content/providers/woocommerce.php:93
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s recenzie client"
+msgstr[1] "%s de recenzii client"
+msgstr[2] "%s recenzii client"
+
+#: content/providers/woocommerce.php:129
+msgid "N/A"
+msgstr "N/A"
+
+#: content/providers/woocommerce.php:130
+msgid "SKU:"
+msgstr "Cod produs:"
+
+#: content/providers/woocommerce.php:142
+msgid "Weight"
+msgstr "Greutate"
+
+#: content/providers/woocommerce.php:154
+msgid "Dimensions"
+msgstr "Dimensiuni"
+
+#: content/providers/woocommerce.php:213
+msgid "Sale!"
+msgstr "Redus!"
+
+#: content/providers/woocommerce.php:231
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] "%1$s recenzie pentru %2$s"
+msgstr[1] "%1$s recenzii pentru %2$s"
+msgstr[2] "%1$s de recenzii pentru %2$s"
+
+#: content/providers/woocommerce.php:237
+msgid "Reviews"
+msgstr "Recenzii"
+
+#: content/providers/woocommerce.php:266
+msgid "You may also like&hellip;"
+msgstr "S-ar putea să-ți placă&hellip;"
+
+#: content/providers/woocommerce.php:284
+msgid "Related products"
+msgstr "Produse asemănătoare"
+
+#: content/providers/wp.php:254
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: content/providers/wp.php:256
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: content/providers/wp.php:258
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: content/providers/wp.php:263
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: main.php:108
+msgid "Brizy Pro is inactive. Please install and activate Brizy first.!"
+msgstr ""
+"Brizy Pro este inactiv. Te rog instalează și activează mai întâi Brizy!"
+
+#: main.php:119
+#, php-format
+msgid "Brizy Pro %s requires Brizy to be %s or newer"
+msgstr "Brizy Pro %s are nevoie ca Brizy să fie %s sau mai nou"
+
+#: main.php:230
+msgid "Dynamic content"
+msgstr "Conținut dinamic"
+
+#. Plugin Name of the plugin/theme
+msgid "Brizy Pro"
+msgstr "Brizy Pro"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://brizy.io/"
+msgstr "https://brizy.io/"
+
+#. Description of the plugin/theme
+msgid "Extended functionality for the Brizy WordPress builder plugin."
+msgstr "Funcționalitate extinsă pentru modulul de construire WordPress Brizy."
+
+#. Author of the plugin/theme
+msgid "Brizy.io"
+msgstr "Brizy.io"

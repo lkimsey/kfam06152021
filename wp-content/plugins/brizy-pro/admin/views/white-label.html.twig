@@ -1,0 +1,111 @@
+<div class="wrap">
+    <h1>White Label</h1>
+
+
+    <h2 class="nav-tab-wrapper">
+        <a href="#" class="nav-tab nav-tab-active">General</a>
+    </h2>
+    <div class="white-label-form">
+        {% if message %}
+            <div class="notice notice-error is-dismissible">
+                <p>{{ message }}</p>
+                <button type="button" class="notice-dismiss"><span
+                            class="screen-reader-text">Dismiss this notice.</span>
+                </button>
+            </div>
+        {% endif %}
+
+        <form action="{{ action }}" method="post">
+
+            <table class="form-table">
+                {% for key,defaultValue in defaultData %}
+                    {% if defaultValue.getType()=='text' %}
+                        <tr class="user-display-name-wrap">
+                            <th>
+                                <label for="{{ key }}-value">{{ defaultValue.getLabel() }} </label>
+                            </th>
+                            <td>
+                                <input id="{{ key }}-value" type="text" name="values[{{ key }}][value]"
+                                       value="{{ data[key].getValue() }}">
+                                <input id="{{ key }}-type" type="hidden" name="values[{{ key }}][type]"
+                                       value="{{ data[key].getType() }}">
+                            </td>
+                        </tr>
+                    {% endif %}
+
+                    {% if defaultValue.getType()=='textarea' %}
+                        <tr class="user-display-name-wrap">
+                            <th>
+                                <label for="{{ key }}-value">{{ defaultValue.getLabel() }} </label>
+                            </th>
+                            <td>
+                                <textarea name="values[{{ key }}][value]" rows="3" cols="24">{{ data[key].getValue() }}</textarea>
+                                <input id="{{ key }}-type" type="hidden" name="values[{{ key }}][type]"
+                                       value="{{ data[key].getType() }}">
+                            </td>
+                        </tr>
+                    {% endif %}
+
+                    {% if defaultValue.getType()=='file' %}
+                        <tr class="user-display-name-wrap">
+                            <th>
+                                <label for="{{ key }}-value">{{ defaultValue.getLabel() }} </label>
+                            </th>
+                            <td>
+                                <input id="{{ key }}-value" type="text" name="values[{{ key }}][value]"
+                                       value="{{ data[key].getValue() }}">
+                                <input id="{{ key }}-type" type="hidden" name="values[{{ key }}][type]"
+                                       value="{{ data[key].getType() }}">
+                                <input type="button" data-key="{{ key }}" value="Change" class="button button-default"
+                                       onclick="openMediaLibrary(event)"/>
+                            </td>
+                        </tr>
+                    {% endif %}
+                {% endfor %}
+            </table>
+
+            <p class="submit">
+                <input type="submit" name="brizy-wl-submit" id="submit"
+                       class="button button-primary" value="{{ submit_label }}">
+
+                <a name="brizy-wl-reset" href="{{ resetAction }}"
+                   onclick="return confirm('Are you sure you want to reset to the default values?')"
+                   class="button button-default">Reset</a>
+            </p>
+        </form>
+
+        <p style="font-style: italic">These options are visible only in your current session.<br>Logout to make them
+            disappear from the sidebar.
+        </p>
+    </div>
+
+    <script>
+        function openMediaLibrary(event) {
+            event.preventDefault();
+
+            var target = jQuery(event.target);
+            // Create a new media frame
+            var frame = wp.media({
+                title: 'Select or Upload Media',
+                button: {
+                    text: 'Use this media'
+                },
+                multiple: false  // Set to true to allow multiple files to be selected
+            });
+
+            // When an image is selected in the media frame...
+            frame.on('select', function () {
+
+                var key = target.data('key');
+
+                // Get media attachment details from the frame state
+                var attachment = frame.state().get('selection').first().toJSON();
+
+                jQuery('#' + key + '-value').val(attachment.url);
+            });
+
+            // Finally, open the modal on click
+            frame.open();
+        };
+    </script>
+</div>

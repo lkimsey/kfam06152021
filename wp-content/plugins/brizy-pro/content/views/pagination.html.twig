@@ -1,0 +1,29 @@
+{#<ul className="brz-ul brz-posts__pagination">#}
+    {#<li className="brz-li brz-posts__pagination-item brz-posts__pagination-prev">#}
+        {#<a className="brz-a" href="#">#}
+            {#prev#}
+        {#</a>#}
+    {#</li>#}
+
+    {#{% for i in 1..totalCount %}#}
+        {#<li className="brz-li brz-posts__pagination-item {{ (i == page) ? 'brz-posts__pagination-item--active' : '' }}">#}
+            {#<a className="brz-a" href="{{ get_pagenum_link(i) }}">#}
+                {#{{ i }}#}
+            {#</a>#}
+        {#</li>#}
+    {#{% endfor %}#}
+
+    {#<li className="brz-li brz-posts__pagination-item brz-posts__pagination-more">#}
+        {#<a className="brz-a" href="#">#}
+            {#...#}
+        {#</a>#}
+    {#</li>#}
+    {#<li className="brz-li brz-posts__pagination-item brz-posts__pagination-next">#}
+    {#<a className="brz-a" href="#">#}
+    {#next#}
+    {#</a>#}
+    {#</li>#}
+{#</ul>#}
+<div class="brz-posts__pagination">
+    {{ pagination | raw }}
+</div>

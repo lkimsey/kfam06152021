@@ -1,0 +1,8 @@
+<div class="brz-posts__filter-wrapper">
+    <ul class="brz-ul brz-posts__filter {{ ulClassName }}">
+        <li class="brz-posts__filter__item {{ liClassName }}" data-filter="*">All</li>
+        {% for tag in tags %}
+            <li class="brz-posts__filter__item {{ liClassName }}" data-filter="{{ tag.slug }}">{{ tag.name }}</li>
+        {% endfor %}
+    </ul>
+</div>
